@@ -127,7 +127,7 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -216,6 +216,117 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  margin-top: 1em;
 }
 
 
+
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    /* background-color: greenyellow; */
+    /* color: white; */
+    max-width: 650px;
+  }
+
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 768px) {
+  .main-section {
+    /* background-color: aquamarine; */
+    /* color: white; */
+    max-width: 800px;
+  }
+  .container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-section {
+    /* background-color: lightcoral; */
+    /* color: white; */
+    max-width: 550px;
+    margin-left: 1em;
+
+  }
+  .container {
+    width: 100%;
+    /* max-width: 600px; */
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #logo {
+    /* float: left; */
+    width: 100%;
+
+    /* display: block; */
+  }
+
+nav {
+  float: left;
+  margin-left: 160px;
+  /* display: block; */
+/* text-align: center;   */
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+.work {
+  position: relative;
+  float: left;
+  width: 500px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  display: flex;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+
+
+
+}
